@@ -3,6 +3,9 @@ This framework helps in automating SOAP and REST webservices using SoapUI. This 
 
 ## Steps to Install : -
 •	Clone the project to your local machine.
+
 •	Update properties file under config folder accordingly.
+
 •	Update confiration in pom.xml as per your project needs.
+
 •	Run 'mvn clean install' command to build code and run tests.
