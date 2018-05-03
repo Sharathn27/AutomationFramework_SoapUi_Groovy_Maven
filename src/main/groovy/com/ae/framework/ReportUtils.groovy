@@ -21,7 +21,7 @@ class ReportUtils {
         doc.omitNullAttributes = false
         doc.html {
             head {
-                title("Cuscal Test Summary Report")
+                title("Test Summary Report")
                 style(type: "text/css") {
                     mkp.yield('''
 									h1,h2.summary {text-align: center}
@@ -40,7 +40,7 @@ class ReportUtils {
             }
             body{
                 div("class": "container"){
-                    h1("class": "summary") { mkp.yield("Cuscal Test Summary Report") }
+                    h1("class": "summary") { mkp.yield("Test Summary Report") }
                     def envDetails = " (Environment : " + FrameworkUtils.getEnv(project) + ")"
                     h2("class": "summary") { mkp.yield(envDetails) }
                     def rows = getTestSummary(result).split('\n').collect { row -> row.split(',') }
