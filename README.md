@@ -15,7 +15,7 @@ This framework helps in automating SOAP and REST webservices using SoapUI. This 
 
 # Steps to perform in SoapUI project xml
 
-# 1. Double click on SoapUI project and go to TestSuites tab and update setup and teardown scripts with below lines of code.
+### 1. Double click on SoapUI project and go to TestSuites tab and update setup and teardown scripts with below lines of code.
 
    Setup Script
    
@@ -28,7 +28,7 @@ This framework helps in automating SOAP and REST webservices using SoapUI. This 
        FrameworkUtils.projectTearDown(project)
        
 
-# 2. Now Double click on TestSuite and update setup and teardown scripts with below lines of code.
+### 2. Now Double click on TestSuite and update setup and teardown scripts with below lines of code.
 
 Setup Script
 
@@ -41,7 +41,7 @@ Setup Script
        FrameworkUtils.testSuiteTearDown(testSuite)
        
        
-# 3. Now Double click on TestCase and update setup and teardown scripts with below lines of code.
+### 3. Now Double click on TestCase and update setup and teardown scripts with below lines of code.
 
 Setup Script
 
